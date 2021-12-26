@@ -1,6 +1,6 @@
-# OpenWrt-AutoBuild
+# OpenWrt
 
-#### 基于OpenWrt-Actions-Lean+Lienol-自动化在线编译脚本  
+#### 基于OpenWrt-Actions在线编译脚本  
 
   
 
