@@ -1,19 +1,3 @@
-# OpenWrt
-
-#### 基于OpenWrt-Actions在线编译脚本  
-
-  
-
-##### 源码和脚本来自
-
-- [Lean](https://github.com/coolsnowwolf/lede)
-- [ Lienol](https://github.com/Lienol/openwrt )
-- [ xiaorouji package](https://github.com/xiaorouji/openwrt-passwall)
-- [P3TERX](https://github.com/P3TERX/Actions-OpenWrt)
-- [281677160](https://github.com/281677160)
-
-
-###########################################################################################################
 - 《[Telegram聊天吹水群](https://t.me/heiheiheio)》- 《[Telegram中文设置方法](https://github.com/danshui-git/shuoming/blob/master/tele.md)》
 
 - # 择要
@@ -96,6 +80,12 @@ op自带的ttyd或者用putty连接OP都可以，用了命令后会一直使用�
 - 《[修改文件跟删除仓库](https://github.com/danshui-git/shuoming/blob/master/%E5%88%A0%E9%99%A4%E5%92%8C%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6.md)》
 
 #
+#
+- # 捐赠
+- 如果你觉得此项目对你有帮助，请请我喝一杯82年的凉白开，感谢！
+
+-微信-
+# <img src="https://github.com/danshui-git/shuoming/blob/master/doc/weixin4.png" />
 #
 #
 - # 鸣谢
