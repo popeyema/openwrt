@@ -72,7 +72,17 @@ rm -rf sha256sums
 rm -rf version.buildinfo
 EOF
 
-# 编译网络共享固件:
+# 文件共享相关(禁用):
 cat >> .config <<EOF
-CONFIG_PACKAGE_luci-app-samba=n
+CONFIG_PACKAGE_luci-app-minidlna=n #miniDLNA服务
+CONFIG_PACKAGE_luci-app-vsftpd=n #FTP 服务器
+CONFIG_PACKAGE_luci-app-samba=n #网络共享
+CONFIG_PACKAGE_autosamba=n #网络共享
+CONFIG_PACKAGE_samba36-server=n #网络共享
+EOF
+
+# LuCI主题:
+cat >> .config <<EOF
+CONFIG_PACKAGE_luci-theme-argon=y
+CONFIG_PACKAGE_luci-theme-netgear=y
 EOF
