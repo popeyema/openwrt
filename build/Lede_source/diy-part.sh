@@ -71,3 +71,8 @@ rm -rf openwrt-x86-64-generic-squashfs-rootfs.img.gz
 rm -rf sha256sums
 rm -rf version.buildinfo
 EOF
+
+# 编译网络共享固件:
+cat >> .config <<EOF
+CONFIG_PACKAGE_luci-app-samba=n
+EOF
